@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+body{
+    /*background-color: #364dcc;*/
+    background: linear-gradient(176deg, rgba(10,22,85,1) 32%, rgba(54,77,204,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 16px;
+}
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    list-style: none;
+
+}
+.social img{
+    width: 33px;
+}
+
+.lista-links{
+   list-style: none;
+}
+
+.lista-links li{
+    margin: 20px 020px;
+    font-family: 'Ubuntu';
+}
+
+.lista-links li a{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(235, 248, 56);
+    display: block;
+    text-decoration: none;
+}
+
+.lista-links li a span{
+    font-size: smaller;
+    display: block;
+    color: gray;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
