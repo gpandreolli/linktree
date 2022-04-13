@@ -8,7 +8,7 @@ html,body{
 
 body{
     /*background-color: #364dcc;*/
-    background: linear-gradient(176deg, rgba(10,22,85,1) 32%, rgba(54,77,204,1) 100%);
+    background: linear-gradient(176deg,	#00688B 32%, #364DCC 100%);
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -24,9 +24,9 @@ h2{
 }
 .avatar{
     width: 80px;
+    height: 80px;
     border-radius: 50px;
-    border: 3px solid white;
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 5px #ffffff;
 }
 
 .profile{
